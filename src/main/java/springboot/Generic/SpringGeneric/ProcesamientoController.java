@@ -21,7 +21,7 @@ public class ProcesamientoController {
 
         // Crear una respuesta en formato JSON
         Map<String, Object> respuesta = new HashMap<>();
-        respuesta.put("mensaje", "Procesamiento completado");
+        respuesta.put("mensaje", "VERSION 2");
         respuesta.put("resultado", suma);
 
         return respuesta;
